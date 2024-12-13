@@ -1,0 +1,24 @@
+i.fa-brands {
+  font-size: 2em;
+  color: black;
+}
+
+.socials {
+  display: flex;
+  gap: 40px;
+}
+
+.icon i:hover {
+  background-color: rgb(27, 236, 236);
+  padding: 6px;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  i.fa-brands {
+    font-size: 2em;
+  }
+  .container{
+    overflow-x: hidden;
+  }
+}

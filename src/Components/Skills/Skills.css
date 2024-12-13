@@ -1,0 +1,30 @@
+.skills {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skills img {
+  width: 60px;
+}
+
+.SkillHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SkillHeading p {
+  color: gray !important;
+}
+
+@media screen and (max-width: 600px) {
+  .skills {
+    flex-wrap: wrap;
+  }
+
+
+  .container{
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,69 @@
+@font-face {
+  font-family: dancing;
+  src: url(../../../public/assets/fonts/dancing/DancingScript-Bold.ttf);
+}
+
+.logo-wrapper i {
+  color: yellow !important;
+}
+.align {
+  font-family: dancing;
+  font-size: 1.4em;
+}
+
+.link a {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.big {
+  font-size: 1em;
+  color: aqua;
+}
+
+.align {
+  margin-top: 10px;
+}
+
+.Nav-wrapper {
+  background-color: black !important;
+}
+
+.link a:hover {
+  /* box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px; */
+  padding: 2px 2px;
+  /* border-radius: 5px; */
+  border-bottom: 3px solid gray;
+}
+
+.button.btn-close:hover {
+  color: white !important;
+}
+
+
+@media screen and (max-width: 600px) {
+  .link a {
+    margin-left: 0;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-body img {
+    width: 100% !important;
+  }
+
+  button.navbar-toggler {
+    background-color: grey;
+  }
+
+  .link a:hover {
+    width: 20%;
+  }
+
+  .Nav-wrapper a {
+    padding: 5px;
+  }
+}

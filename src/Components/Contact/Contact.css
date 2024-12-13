@@ -1,0 +1,115 @@
+.ContactForm input {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  width: 350px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+}
+
+.info {
+  border: 1px solid;
+  width: 234px;
+  border-radius: 5px;
+  padding: 10px 0px 0px 10px;
+}
+.contactInfo {
+  display: flex;
+  gap: 20px;
+}
+
+form input {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  width: 350px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  border: none;
+  outline: none;
+  font-size: 1.1em;
+  background: gray;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.inputContent p {
+  margin-top: 20px;
+}
+
+.ContactImage img {
+  width: 300px;
+}
+
+.gray {
+  color: gray !important;
+}
+
+.InputFields {
+  display: flex;
+  gap: 50px;
+}
+
+.ContactMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.messsage {
+  height: 100px;
+}
+
+/* .messsage ::placeholder {
+    margin-top: -50px !important;
+} */
+
+.contactBtn {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .ContactImage img {
+    width: 98%;
+  }
+
+  .contactInfo {
+    width: 100%;
+  }
+
+  .info {
+    border: 1px solid;
+    width: 159px;
+    border-radius: 5px;
+    padding: 5px 0px px 5px;
+    font-size: 1px !important;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .InputFields {
+    display: contents;
+  }
+
+  form input {
+    width: 320px;
+  }
+
+  .container{
+    overflow-x: hidden;
+  }
+}

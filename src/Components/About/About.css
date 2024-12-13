@@ -1,0 +1,24 @@
+.AImageWrapper img {
+  width: 450px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.Sub-heading p,
+ul li {
+  color: gray !important;
+}
+
+@media screen and (max-width: 600px) {
+  .AImageWrapper img {
+    width: 100%;
+  }
+
+  .heading {
+    margin-top: 20px;
+  }
+
+  .container{
+    overflow-x: hidden;
+  }
+}
