@@ -27,6 +27,10 @@
   color: black !important;
 }
 
+.CardContent a{
+  color: aqua !important;
+}
+
 @media screen and (max-width: 600px) {
   .ProjectsCard {
     justify-content: center;

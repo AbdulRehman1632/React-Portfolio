@@ -9,21 +9,24 @@ export const info = {
   Heading: "Hi,IM Abdul Rehman!",
   SubHeading: "Front-End Developer",
   ParaGraph:
-    "A passionate Front End Website Developer  having an experience of building Web and Mobile applications with JavaScript / Bootstrap / React and some other cool libraries and frameworks.",
+    "I am a dedicated Front-End Developer specializing in creating clean, responsive, and high-performance web applications. With expertise in JavaScript, Material UI, React, and modern front-end libraries, I focus on delivering seamless user experiences and efficient solutions. My goal is to transform ideas into professional digital products that align with both user needs and business objectives.",
   ImagePath: "../assets/images/giphy.gif",
 };
 
 export const about = {
   Heading: "About Me!",
   SubHeading:
-    "Creative front-end developer with a passion for crafting interactive, seamless user experiences. Obsessed with pixels, animations, and bringing designs to life!",
+    "Creative Front-End Developer with MERN expertise, passionate about building modern, intelligent, and user-centric digital solutions.",
   list1:
-    "Passionate about translating complex ideas into clean, engaging interfaces that users love to interact with.",
+    "Experienced in crafting responsive, accessible, and high-performing interfaces using React, JavaScript, Bootstrap, and other cutting-edge front-end technologies.",
   list2:
-    "Constantly exploring the latest front-end tech to keep designs fresh, responsive, and dynamic across all devices",
+    "Proficient in the MERN stack (MongoDB, Express.js, React, Node.js), enabling me to work across the full development cycle — from database design to interactive UI — while keeping a strong focus on the front-end experience.",
   list3:
-    "Focused on creating seamless, intuitive interfaces that enhance user experience and ensure accessibility for everyone, regardless of device or ability",
-
+    "Hands-on with AI-powered applications, including custom chatbots, voice-enabled calling bots using ElevenLabs, and automated scheduling agents that post directly to LinkedIn.",
+  list4:
+    "Comfortable with modern development workflows, version control (Git/GitHub), API integration, and deploying projects on platforms like Firebase, Netlify, and Hostinger.",
+  list5:
+    "Always eager to explore emerging technologies, sharpen problem-solving skills, and deliver solutions that combine functionality, performance, and creativity.",
   ImagePath: "./assets/images/gif3.gif",
 };
 
@@ -80,20 +83,82 @@ export const skills = [
     logo: "./assets/images/nodejs.png",
     name: "Nodejs",
   },
+  {
+    logo: "./assets/images/express.png",
+    name: "Expressjs",
+  },
+   {
+    logo: "./assets/images/firebase.png",
+    name: "Firebase",
+  },
+  {
+    logo: "./assets/images/material.png",
+    name: "Material UI",
+  },
 
   {
     logo: "./assets/images/figma.png",
     name: "Figma",
   },
+ 
+
+  {
+    logo: "./assets/images/elevenlabs.png",
+    name: "ElevenLabs",
+  },
+  {
+    logo: "./assets/images/github.png",
+    name: "Github",
+  },
+  {
+    logo: "./assets/images/n8n.png",
+    name: "n8n",
+  },
 ];
 
 export const projects = [
+   {
+    name: "DESIGN BY SHOPIFY",
+    description:
+      "Empower your brand with complete Shopify solutions — from store setup to custom design and seamless eCommerce growth 🛍️.",
+    image: "./assets/images/designbyshopify.jpg",
+    path: "https://designbyshopify.com/",
+  },
+  {
+    name: "ATTENDANCE SYSTEM",
+    description:
+      "Track attendance seamlessly with real-time logs and smart records credentials uploaded on LinkedIn.",
+    image: "./assets/images/attendance.jpg",
+    path: "https://attendancesystem-4e598.web.app/Login",
+      credentials: "https://www.linkedin.com/posts/abdul-rehman-5617b8283_project-title-smart-attendance-workforce-activity-7353031598524510208-dhv2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAET--BkBeQ57otFDDdSmq4BmcD-3DdQa7uQ"
+  },
+   {
+    name: "MUSHK TAJ PERFUMES",
+    description:
+      "Perfume eCommerce on MERN — manage products with CRUD, shop with add-to-cart, and enjoy a fluid checkout ✨.",
+    image: "./assets/images/perfumes.jpg",
+    path: "https://perfumes-frontend-one.vercel.app/",
+  },
+  {
+    name: "KINDLE PUBLISHERS",
+    description:
+      "One-stop book services — from writing to publishing, editing, and printing, we bring your stories to life 📚.",
+    image: "./assets/images/book.jpg",
+    path: "https://kindlepublishersusa.com/",
+  },
   {
     name: "HONOR",
     description:
-      " Explore pristine shores, golden sands, and crystal-clear waters that beckon you to unwind and indulge in thrilling activities 🏄‍♀️.",
+      "Explore pristine shores, golden sands, and crystal-clear waters that beckon you to unwind and indulge in thrilling activities 🏄‍♀️.",
     image: "./assets/images/honor.png",
     path: "https://watertour.netlify.app/",
+  },
+  {
+    name: "RIHLA TRAVEL AND TOUR",
+    description:
+      "A modern travel agency website offering curated tour packages, seamless booking, and unforgettable journey experiences ✈️.",
+    image: "./assets/images/travel.jpg",
+    path: "https://rihlatravelandtours.com/",
   },
   {
     name: "WEATHER APP",
@@ -116,13 +181,14 @@ export const projects = [
     image: "./assets/images/api.jpg",
     path: "https://simulated-api.netlify.app/",
   },
-  {
-    name: "CHAWK SHOPPING",
-    description:
-      "This is a modern, responsive e-commerce platform built with ReactJS, featuring a clean interface for online shopping 🛍️ .",
-    image: "./assets/images/shopping.jpg",
-    path: "https://chawk-shopping.netlify.app/",
-  },
+  
+  // {
+  //   name: "CHAWK SHOPPING",
+  //   description:
+  //     "This is a modern, responsive e-commerce platform built with ReactJS, featuring a clean interface for online shopping 🛍️ .",
+  //   image: "./assets/images/shopping.jpg",
+  //   path: "https://chawk-shopping.netlify.app/",
+  // },
   {
     name: "SCREEN SIZER",
     description:

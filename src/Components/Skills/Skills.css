@@ -1,7 +1,12 @@
 .skills {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 30px;
   justify-content: center;
+  text-align: center;
+    margin: 0 auto;
+  
 }
 
 .skills img {

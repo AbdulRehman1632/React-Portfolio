@@ -3,7 +3,7 @@ import "./About.css";
 import { about } from "../../Utils/constant/Content";
 
 const About = ({ data }) => {
-  const { Heading, SubHeading, list1, list2, list3, ImagePath } = about;
+  const { Heading, SubHeading, list1, list2, list3, list4, list5, ImagePath } = about;
   console.log(data);
 
   return (
@@ -40,6 +40,8 @@ const About = ({ data }) => {
                       <li>{list1}</li>
                       <li>{list2}</li>
                       <li>{list3}</li>
+                      <li>{list4}</li>
+                      <li>{list5}</li>
                     </ul>
                   </div>
                 </div>

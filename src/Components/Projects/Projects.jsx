@@ -17,15 +17,26 @@ const Projects = () => {
         className="d-flex ProjectsCard "
       >
         {projects.map((value, index) => {
-          const { name, description, image, path } = value;
+          const { name, description, image, path ,credentials } = value;
           return (
             <div key={index} className="CardContent">
               <NavLink target="_blank" to={path}>
-                <Card style={{ width: "18rem" }}>
+                <Card style={{ width: "18rem",height:"535px" }}>
                   <Card.Img variant="top" src={image} />
                   <Card.Body>
                     <Card.Title>{name}</Card.Title>
                     <Card.Text>{description}</Card.Text>
+                    {credentials && (
+              <a
+                href={credentials}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-link p-0"
+                style={{ fontSize: "0.8rem", }}
+              >
+                Attendance Credentials
+              </a>
+            )}
                   </Card.Body>
                 </Card>
               </NavLink>
